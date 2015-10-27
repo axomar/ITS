@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<log_session_start auth_token="" session_id="Exponentes_2" user_guid="Exponentes-6" date_time="2013/07/12 18:17:06.00915" timezone="US/Eastern" class_id="" treatment_id="" assignment_id="" info_type="" />
+<log_action auth_token="" session_id="Exponentes_2" user_guid="x" date_time="2013/07/12 18:17:06.00914" timezone="US/Eastern" action_id="context_message" source_id="" external_object_id="" info_type="tutor_message.dtd">
+  <tutor_related_message_sequence version_number="4">
+    <context_message context_message_id="Cb94bcf50-a3a2-41c8-b4c4-89a64fb0731b" name="START_PROBLEM">
+      <class>
+        <school>School1</school>
+      </class>
+      <dataset>
+        <name>its</name>
+        <level type="unit">
+          <name>Unit1</name>
+          <level type="section">
+            <name>Section1</name>
+            <problem>
+              <name>CTAT_Example_Problem</name>
+              <context>CTAT_Example_Problem</context>
+            </problem>
+          </level>
+        </level>
+      </dataset>
+    </context_message>
+  </tutor_related_message_sequence>
+</log_action>
+<log_action auth_token="" session_id="Exponentes_2" user_guid="x" date_time="2013/07/12 18:18:36.00404" timezone="US/Eastern" action_id="tool_message" source_id="" external_object_id="" info_type="tutor_message.dtd">
+  <tutor_related_message_sequence version_number="4">
+    <tool_message context_message_id="Cb94bcf50-a3a2-41c8-b4c4-89a64fb0731b">
+      <problem_name>CTAT_Example_Problem</problem_name>
+      <semantic_event transaction_id="C446565797D4E0648A916C7F8801983103CF2DE" name="ATTEMPT" />
+      <event_descriptor>
+        <selection>Resultado</selection>
+        <action>UpdateTextArea</action>
+        <input>5</input>
+      </event_descriptor>
+      <custom_field>
+        <name>tool_event_time</name>
+        <value>2013-07-13 01:18:36.404 UTC</value>
+      </custom_field>
+    </tool_message>
+  </tutor_related_message_sequence>
+</log_action>
+<log_action auth_token="" session_id="Exponentes_2" user_guid="x" date_time="2013/07/12 18:18:36.00479" timezone="US/Eastern" action_id="message" source_id="" external_object_id="" info_type="tutor_message.dtd">
+  <tutor_related_message_sequence version_number="4">
+    <message context_message_id="Cb94bcf50-a3a2-41c8-b4c4-89a64fb0731b">
+      <property name="verb">SendNoteProperty</property>
+      <property name="MessageType">InCorrectAction</property>
+      <property name="Selection">
+        <entry>Resultado</entry>
+      </property>
+      <property name="Action">
+        <entry>UpdateTextArea</entry>
+      </property>
+      <property name="Input">
+        <entry>5</entry>
+      </property>
+      <property name="transaction_id">C446565797D4E0648A916C7F8801983103CF2DE</property>
+      <property name="end_of_transaction">false</property>
+    </message>
+  </tutor_related_message_sequence>
+</log_action>
+<log_action auth_token="" session_id="Exponentes_2" user_guid="x" date_time="2013/07/12 18:18:36.00483" timezone="US/Eastern" action_id="tutor_message" source_id="" external_object_id="" info_type="tutor_message.dtd">
+  <tutor_related_message_sequence version_number="4">
+    <tutor_message context_message_id="Cb94bcf50-a3a2-41c8-b4c4-89a64fb0731b">
+      <problem_name>CTAT_Example_Problem</problem_name>
+      <semantic_event transaction_id="C446565797D4E0648A916C7F8801983103CF2DE" name="RESULT" />
+      <event_descriptor>
+        <selection>Resultado</selection>
+        <action>UpdateTextArea</action>
+        <input />
+      </event_descriptor>
+      <action_evaluation>InCorrect</action_evaluation>
+      <tutor_advice>No, esto no es correcto! No debes sumar la Base y el Exponente.</tutor_advice>
+      <skill>
+        <name>unnamed</name>
+      </skill>
+      <custom_field>
+        <name>tutor_event_time</name>
+        <value>2013-07-13 01:18:36.483 UTC</value>
+      </custom_field>
+      <custom_field>
+        <name>step_id</name>
+        <value>1</value>
+      </custom_field>
+    </tutor_message>
+  </tutor_related_message_sequence>
+</log_action>
+<log_action auth_token="" session_id="Exponentes_2" user_guid="x" date_time="2013/07/12 18:18:36.00486" timezone="US/Eastern" action_id="message" source_id="" external_object_id="" info_type="tutor_message.dtd">
+  <tutor_related_message_sequence version_number="4">
+    <message context_message_id="Cb94bcf50-a3a2-41c8-b4c4-89a64fb0731b">
+      <property name="verb">SendNoteProperty</property>
+      <property name="MessageType">BuggyMessage</property>
+      <property name="BuggyMsg">No, esto no es correcto! No debes sumar la Base y el Exponente.</property>
+      <property name="Selection">
+        <entry>Resultado</entry>
+      </property>
+      <property name="Action">
+        <entry>UpdateTextArea</entry>
+      </property>
+      <property name="transaction_id">C446565797D4E0648A916C7F8801983103CF2DE</property>
+      <property name="end_of_transaction">true</property>
+    </message>
+  </tutor_related_message_sequence>
+</log_action>
+</log>

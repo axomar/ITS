@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v4 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 + v4 </equation>
+	<result>Al parecer estás sumando el numerador de la primer fracción y el denominador de la segunda.
+	Recuerda que al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados, el primer numerador resultante 
+	se calcula al multiplicar el numerador de la primer fracción por el denominador de la segunda.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 + v3 </equation>
+	<result>Al parecer estás sumando el numerador de ambas fracciones.
+	Recuerda que al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados, el primer numerador resultante 
+	se calcula al multiplicar el numerador de la primer fracción por el denominador de la segunda.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v3 </equation>
+	<result>Al parecer estás multiplicando el numerador de ambas fracciones.
+	Recuerda que al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados, el primer numerador resultante 
+	se calcula al multiplicar el numerador de la primer fracción por el denominador de la segunda.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v0 * v4 </equation>
+	<result>Recuerda que al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados, el primer numerador resultante 
+	se calcula al multiplicar el numerador de la primer fracción por el denominador de la segunda.</result>
+  </option>
+ </input>
+ <input id="2">
+  <option>
+	<operator>==</operator>
+	<equation> txt v2 , a2 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == + </equation>
+	<result>Si estas sumando fracciones, debes indicar con el signo "+" que sumarás los numeradores resultantes.</result>
+  </option>  
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == - </equation>
+	<result>Si estas restando fracciones, debes indicar con el signo "-" que restarás los numeradores resultantes.</result>
+  </option>  
+ </input>
+ <input id="3">
+   <option>
+	<operator>==</operator>
+	<equation> v1 * v3 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v3 </equation>
+	<result>Al parecer estás sumando el denominador de la primer fracción y el numerador de la segunda.
+	Recuerda que al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados, el segundo numerador resultante 
+	se calcula al multiplicar el denominador de la primer fracción por el numerador de la segunda.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 + v3 </equation>
+	<result>Al parecer estás sumando el numerador de ambas fracciones.
+	Recuerda que al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados,el segundo numerador resultante 
+	se calcula al multiplicar el denominador de la primer fracción por el numerador de la segunda.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v3 </equation>
+	<result>Al parecer estás multiplicando el numerador de ambas fracciones.
+	Recuerda que al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados, el segundo numerador resultante 
+	se calcula al multiplicar el denominador de la primer fracción por el numerador de la segunda.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v1 * v3 </equation>
+	<result>Recuerda que al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados, el segundo numerador resultante 
+	se calcula al multiplicar el denominador de la primer fracción por el numerador de la segunda.</result>
+  </option>
+ </input>
+ <input id="4">
+  <option>
+	<operator>==</operator>
+	<equation> v1 * v4 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> mcm v1 , v4 </equation>
+	<result>El denominador es correcto, solo que en este ejercicio deseamos usar el método de productos cruzados y posteriormente reducir la fracción resultante. 
+	En este caso, el denominador resultante se calcula multiplicando los denominadores de las fracciones originales.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v4 </equation>
+	<result>Al parecer estás sumando los denominadores de las fracciones originales, recuerda que al sumar o restar fracciones con diferente denominador, 
+	usando el método de productos cruzados, el denominador resultante se calcula multiplicando los denominadores de las fracciones originales.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v4 </equation>
+	<result>Al parecer estás sumando los denominadores de las fracciones originales, recuerda que al sumar o restar fracciones con diferente denominador, 
+	usando el método de productos cruzados, el denominador resultante se calcula multiplicando los denominadores de las fracciones originales.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v1 * v4 </equation>
+	<result>Al sumar o restar fracciones con diferente denominador, usando el método de productos cruzados, el denominador resultante se calcula multiplicando 
+	los denominadores de las fracciones originales.</result>
+  </option>
+ </input>
+ <input id="5">
+  <option>
+	<operator>==</operator>
+	<equation> a1 v2 a3 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == - </equation>
+	<result>Si los numeradores obtenidos son correctos, ahora solo debes realizar la resta correspondiente entre ellos.</result>
+  </option>  
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == + </equation>
+	<result>Si los numeradores obtenidos son correctos, ahora solo debes realizar la suma correspondiente entre ellos.</result>
+  </option>  
+  <option>
+	<operator>!=</operator>
+	<equation> a1 v2 a3 </equation>
+	<result>El resultado de la operación se determina sumando o restando los numeradores resultantes</result>
+  </option>
+ </input>
+ <input id="6">
+  <option>
+	<operator>==</operator>
+	<equation> a4 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> a4 </equation>
+	<result>Si el denominador obtenido en el paso anterior es correcto, el denominador de la fracción resultante es el mismo.</result>
+  </option>
+ </input> 
+ <input id="7">
+  <option>
+	<operator>==</operator>
+	<equation> smn a5 , a6 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> smn a5 , a6 </equation>
+	<result>Al simplificar deseamos reducir a una forma más sencilla el numerador y denominador. Esto se logra dividiendo el numerador y denominador 
+	por el factor común más grande, con el cual, el resultado de la división da cero en ambos términos.  Revisa si el valor con el que divides sea el 
+	mayor posible.</result>
+  </option>
+ </input>
+ <input id="8">
+  <option>
+	<operator>==</operator>
+	<equation> smd a5 , a6 </equation>
+	<result>ok</result>
+   </option>
+   <option>
+	<operator>!=</operator>
+	<equation> smd a5 , a6 </equation>
+	<result>Al simplificar deseamos reducir a una forma más sencilla el numerador y denominador. Esto se logra dividiendo el numerador y denominador 
+	por el factor común más grande, con el cual, el resultado de la división da cero en ambos términos. Revisa si el valor con el que divides sea el 
+	mayor posible.</result>
+  </option>
+ </input>
+ <input id="9">
+  <option>
+	<operator>==</operator>
+	<equation> cod a7 , a8 </equation>
+	<result>ok</result>
+   </option>
+   <option>
+	<operator>==</operator>
+	<equation> a7 + a8 </equation>
+	<result>Al parecer estás sumando el numerador y denomindaro de la fracción. En este paso debes dividir el numerador entre el denominador, el cociente 
+	o resultado de la división es el valor busacado. El residuo es la proporción restante de la fracción.</result>
+   </option>
+   <option>
+	<operator>!=</operator>
+	<equation> cod a7 , a8 </equation>
+	<result> En este paso debes dividir el numerador entre el denominador, el cociente o resultado de la división es el valor busacado. El residuo es la 
+	proporción restante de la fracción.</result>
+  </option>
+ </input>
+ <input id="10">
+  <option>
+	<operator>==</operator>
+	<equation> red a7 , a8 </equation>
+	<result>ok</result>
+   </option>
+   <option>
+	<operator>!=</operator>
+	<equation> red a7 , a8 </equation>
+	<result> En este paso debes dividir el numerador entre el denominador. El residuo, la proporción restante de la fracción, es el valor buscado.</result>
+  </option> </input>
+ <input id="11">
+  <option>
+	<operator>==</operator>
+	<equation> a8 </equation>
+	<result>ok</result>
+   </option>
+   <option>
+	<operator>!=</operator>
+	<equation> a8 </equation>
+	<result>Si el denominador obtenido en el paso anterior es correcto, el denominador de la fracción resultante es el mismo.</result>
+  </option>
+ </input>
+</dt>

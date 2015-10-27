@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>IF</operator>
+	<equation> v1 LT 0 and ( v0 ) ^ ( v1 * -1 ) == a1 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 GE 0 and ( v0 ) ^ v1 == a1 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 == 0 </equation>
+	<result>Para elevar un número (base) a una potencia (exponente) igual a cero, el resultado siempre será uno</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 == 1 </equation>
+	<result>Para elevar un número (base) a una potencia (exponente) igual a uno, el resultado siempre será el mismo número</result>
+  </option>  
+  <option>
+	<operator>IF</operator>
+	<equation> v0 LT 0 </equation>
+	<result>Para elevar un número (base) con signo negativo, el signo será igual al de la base si la potencia (exponente) es impar, y el signo 
+	será el contrario si el exponente es par.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 LT 0 </equation>
+	<result>Para elevar un número (base) a una potencia (exponente) con signo negativo, el resultado siempre será igual a uno sobre el número 
+	elevado al exponente positivo.</result>
+  </option>    
+  <option>
+	<operator>==</operator>
+	<equation> v0 + v1 </equation>
+	<result>No es correcto sumar el número (base) y la potencia (exponente), debes multiplicar la base tantas por si misma veces como indica 
+	el exponente</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v1 </equation>
+	<result>No es correcto multiplicar el número (base) por la potencia (exponente), debes multiplicar la base por si misma tantas veces como 
+	indica el exponente</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 LT 0 and v0 ^ ( v1 * -1 ) != a1 </equation>
+	<result>Para elevar un número (base) a una potencia (exponente) con signo negativo, el resultado siempre será igual a uno sobre el número 
+	elevado al exponente positivo.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 GT 0 and v0 ^ v1 != a1 </equation>
+	<result>Para elevar un número (base) a una potencia (exponente) debes multiplicar la base por si misma tantas veces como indica el exponente.</result>
+  </option>
+  
+ </input>
+</dt>

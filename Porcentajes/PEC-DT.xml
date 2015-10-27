@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v1 / 100 </equation>
+	<result>ok</result>
+  </option>  
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v1 </equation>
+	<result>Casi lo logras! Si debes multiplicar el porcentaje por el valor, solo te falta dividir entre 100 el resultado.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v1 / 10 </equation>
+	<result>Casi lo logras! Al parecer has dividido entre 10 el resultado de multiplicar el porcentaje por el valor, debes dividirlo entre 100.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 / 100 </equation>
+	<result>Casi lo logras! Una forma es dividir el porcentaje entre 100, solo te falta multiplicar el resultado por el valor.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v0 * v1 / 100 </equation>
+	<result>Para calcular el porcentaje de un valor dado, recuerda que debes multiplicar el porcentaje por el valor y posteriormente dividirlo entre 100.</result>
+  </option>
+  </input>
+</dt>

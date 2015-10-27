@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<log_session_start auth_token="" session_id="Exponentes_2" user_guid="Exponentes-5" date_time="2013/07/12 14:19:54.00235" timezone="US/Eastern" class_id="" treatment_id="" assignment_id="" info_type="" />
+<log_action auth_token="" session_id="Exponentes_2" user_guid="x" date_time="2013/07/12 14:19:54.00235" timezone="US/Eastern" action_id="context_message" source_id="" external_object_id="" info_type="tutor_message.dtd">
+  <tutor_related_message_sequence version_number="4">
+    <context_message context_message_id="C8dafc25a-5457-4225-97ae-f9350646ca5e" name="START_PROBLEM">
+      <class>
+        <school>School1</school>
+      </class>
+      <dataset>
+        <name>its</name>
+        <level type="unit">
+          <name>Unit1</name>
+          <level type="section">
+            <name>Section1</name>
+            <problem>
+              <name>CTAT_Example_Problem</name>
+              <context>CTAT_Example_Problem</context>
+            </problem>
+          </level>
+        </level>
+      </dataset>
+    </context_message>
+  </tutor_related_message_sequence>
+</log_action>
+</log>

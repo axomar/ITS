@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> v0 * ( 10 ^ v1 ) </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 LT 0 and a1 == v0 * 10 </equation>
+	<result>No es correcto multiplicar el valor por diez. Recuerda que con potencias negativas solo debes recorrer el punto decimal hacia la izquierda el número
+	de veces que indica el exponente.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 GT 0 and a1 == v0 * 10 </equation>
+	<result>No es correcto multiplicar el valor por diez. Recuerda que con potencias positivas solo debes recorrer el punto decimal hacia la derecha el número
+	de veces que indica el exponente.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 LT 0 and a1 == v0 * v1 </equation>
+	<result>No es correcto multiplicar el valor por la potencia. Recuerda que con potencias negativas solo debes recorrer el punto decimal hacia la izquierda el número
+	de veces que indica el exponente.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 GT 0 and a1 == v0 * v1 </equation>
+	<result>No es correcto multiplicar el valor por la potencia. Recuerda que con potencias positivas solo debes recorrer el punto decimal hacia la derecha el número
+	de veces que indica el exponente.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 LT 0 and a1 != v0 * ( 10 ^ v1 ) </equation>
+	<result>Recuerda que con potencias negativas solo debes recorrer el punto decimal hacia la izquierda el número de veces que indica el exponente.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v1 GT 0 and a1 != v0 * ( 10 ^ v1 ) </equation>
+	<result>Recuerda que con potencias positivas solo debes recorrer el punto decimal hacia la derecha el número de veces que indica el exponente.</result>
+  </option>
+ </input>
+</dt>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> v1 / ( 10 ^ v0 ) </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 / 10 </equation>
+	<result>No es correcto dividir el valor entre diez. Recuerda que debes recorrer el punto decimal hasta que obtengas solo un dígito antes de el punto.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v1 / ( 10 ^ v0 ) </equation>
+	<result>Recuerda que debes recorrer el punto decimal hasta que obtengas solo un dígito antes de el punto.</result>
+  </option>
+ </input>
+ <input id="2">
+  <option>
+	<operator>==</operator>
+	<equation> v0 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 * -1 </equation>
+	<result>Casi lo logras! Solo que el signo del exponente es incorrecto. Recuerda que el exponente de la base diez, debe ser positivo 
+	si el punto decimal lo recorriste a la izquierda y negativo si lo recorres a la derecha.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v0 </equation>
+	<result>El exponente de la base diez, debe ser el número de posiciones que recorriste el punto decimal.</result>
+  </option>
+ </input>
+</dt>

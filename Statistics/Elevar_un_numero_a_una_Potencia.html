@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />       <SCRIPT>
+  if(location.search.substr(1))
+  {
+    Variables = location.search.substr(1).split ('&');
+    // alert(Variables);
+    for (i = 0; i < Variables.length; i++) 
+    {
+      Separ = Variables[i].split('=');
+      eval ('var '+Separ[0]+'="'+Separ[1]+'"');
+    }
+  }
+</SCRIPT>
+    </head>
+    <body dir="ltr">
+        <p style="text-align: center;"><span style="color: rgb(51, 153, 102);"><span style="font-size: x-large;"><strong>Elevar un N&uacute;mero a una Potencia</strong>&nbsp;</span></span></p>
+        <p><span style="font-size: larger;">Elevar un n&uacute;mero (base) a una potencia es un proceso en el que debes multiplicar dicho n&uacute;mero por si mismo una serie de veces. La potencia, o exponente, es el que indica la cantidad de veces que tenemos que realizar la multiplicaci&oacute;n. Es decir, el exponente nos dice cu&aacute;ntas veces usar la base como factor.</span></p>
+        <p><span style="font-size: larger;">El aspecto de la expresi&oacute;n es algo como la siguiente:</span></p>
+        <p style="text-align: center;"><img src="/~siec/chamilo/courses/CETMAR12015/document/learning_path/Exponentes/Base.png" alt="" /></p>
+        <p><span style="font-size: larger;">As&iacute;, entonces, la operaci&oacute;n a realizar es tomar la base y elevarla al exponente indicado.&nbsp;En este caso, tomaremos 5 que es la base y la multiplicaremos 2 veces por si misma.</span></p>
+        <p><span style="font-size: larger;">Si el exponente est&aacute; representado por un n&uacute;mero negativo, entonces debemos realizar el proceso llamado multiplicativo inverso, el cual consiste del inverso del n&uacute;mero elevado al exponente psitivo:</span></p>
+        <p style="text-align: center;"><img src="/~siec/chamilo/courses/CETMAR12015/document/learning_path/Exponentes/Potencia_negativa.png" alt="" /></p>
+        <p><span style="font-size: larger;">Es importante mencionar que <strong><span style="color: rgb(102, 204, 0);">el resultado de elevar un n&uacute;mero a una </span><span style="color: rgb(102, 204, 0);">potencia igual a 0 ser&aacute; siempre 1</span></strong><span style="color: rgb(51, 153, 102);"> </span>y si la <strong><span style="color: rgb(102, 204, 0);">potencia es 1, el resultado es el mismo n&uacute;mero</span></strong>.</span></p>
+        <p style="text-align: center;"><img src="/~siec/chamilo/courses/CETMAR12015/document/learning_path/Exponentes/Base-0.png" alt="" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="/~siec/chamilo/courses/CETMAR12015/document/learning_path/Exponentes/Base-1.png" alt="" /></p>
+        <table cellspacing="1" cellpadding="1" border="0" style="width: 100%; table-layout: fixed;">
+            <tbody>
+                <tr>
+                    <td width="444">
+                    <p><strong><span style="font-size: larger;">Entonces:</span></strong></p>
+                    <p style="text-align: center;"><img src="/~siec/chamilo/courses/CETMAR12015/document/learning_path/Exponentes/Base_operacion.png" alt="" /></p>
+                    <p style="text-align: left;"><span style="font-size: larger;">Para potencia negativa:</span></p>
+                    <p style="text-align: center;"><img alt="" src="data:image/png;base64,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" /></p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td width="376">
+                    <p style="text-align: center;"><strong><span style="font-size: larger;">Ejercicios</span></strong></p>
+                    <p style="text-align: center;">&nbsp;</p>
+                    <p><span style="text-align: center;">&nbsp;</span><strong style="text-align: center;">Ejemplo del Tipo de Ejercicios en esta Secci&oacute;n:</strong></p>
+                    <p><img alt="" src="http://lcc.ens.uabc.mx/~siec/ITS/Exponentes/ElevaBase.jpg" /></p>
+                    <!-- Liga que envía valores de variables javascript mediante el URL-->                     <script language = javascript>
+document.write('<center><a href = "http://lcc.ens.uabc.mx/~siec/ITS/Exponentes/ElevaBase.php?user_id=' + id + 
+'&course_id=' + 'EXP' + '&cont_eje=1'  + '&cidReq=' + cidReq + '">Ir a Sección de Ejercicios</a></center>');
+</script>
+                    <p>&nbsp;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&nbsp;</p>
+        <p><style type="text/css">body{}</style></p>
+    </body>
+</html>

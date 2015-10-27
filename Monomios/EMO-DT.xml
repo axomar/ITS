@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> v0 ^ v3 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v3 </equation>
+	<result>No es correcto multiplicar el coeficiente del monomio por el exponente. Recuerda que al elevar un monomio a una potencia, 
+	debes de elevar el coeficiente a la potencia dada.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v0 ^ v3 </equation>
+	<result>Al elevar un monomio a una potencia, primero debes de elevar el coeficiente a la potencia dada.</result>
+  </option>
+ </input>
+ <input id="2">
+  <option>
+	<operator>==</operator>
+	<equation> v1 * v3 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v3 </equation>
+	<result>Estás sumando el exponente de la base y el exponente del monomio, estos debes de multiplicarlos.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v2 </equation>
+	<result>Estás sumando los exponentes de las bases del monomio. Recuerda que debes multiplicar el exponente de la base por el exponente del monomio.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 * v3 * -1</equation>
+	<result>Casi lo logras! Al parecer la manipulación de signos la estás realizando de forma incorrecta.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v1 * v3 </equation>
+	<result>Recuerda que al elevar un monomio a una potencia,debes multiplicar el exponente de las bases por el exponente del monomio..</result>
+  </option>
+ </input>
+<input id="3">
+  <option>
+	<operator>==</operator>
+	<equation> v2 * v3 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v2 + v3 </equation>
+	<result>Estás sumando el exponente de la base y el exponente del monomio, estos debes de multiplicarlos.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v2 </equation>
+	<result>Estás sumando los exponentes de las bases del monomio. Recuerda que debes multiplicar el exponente de la base por el exponente del monomio.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v2 * v3 * -1</equation>
+	<result>Casi lo logras! Al parecer la manipulación de signos la estás realizando de forma incorrecta.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v2 * v3 </equation>
+	<result>Recuerda que al elevar un monomio a una potencia,debes multiplicar el exponente de las bases por el exponente del monomio..</result>
+  </option>
+ </input>
+ </dt>

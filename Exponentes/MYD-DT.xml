@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> v0 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 + v3 </equation>
+	<result>No es correcto sumar las bases, en el resultado ésta debe permanecer idéntica.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v0 </equation>
+	<result>Para multiplicar o dividir dos números similares, elevados a una potencia, la base del resultado permanece idéntica.</result>
+  </option>
+ </input>
+ <input id="2">
+  <option>
+	<operator>==</operator>
+	<equation> o* v1 + v4 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> o* v1 - v4 </equation>
+	<result>Para multiplicar dos números similares, elevados a una potencia, no debes restar las potencias originales, éstas se deben sumar.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> o* v1 + v4 </equation>
+	<result>Para multiplicar dos números similares, elevados a una potencia, la potencia resultante se calcula sumando las potencias originales.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> o/ v1 - v4 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> o/ v1 + v4 </equation>
+	<result>Para dividir dos números similares, elevados a una potencia, no debes sumar las potencias originales, éstas se deben restar.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> o/ v1 - v4 </equation>
+	<result>Para dividir dos números similares, elevados a una potencia, la potencia resultante se calcula restando las potencias originales.</result>
+  </option>
+ </input>
+</dt>

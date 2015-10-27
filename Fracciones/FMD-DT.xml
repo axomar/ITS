@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == * and a1 == v0 * v3 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == / and a1 == v0 * v4 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == * and a1 == v0 * v4 </equation>
+	<result>Al parecer estás multiplicando el numerador de la primer fracción y el denominador de la segunda.
+	Recuerda que al multiplicar fracciones, el numerador resultante se obtiene multiplicando los numerador de ambas fracciones.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == / and a1 == v0 * v3 </equation>
+	<result>Al parecer estás multiplicando el numerador de ambas fracciones. Recuerda que al dividir fracciones, 
+	el numerador resultante se obtiene multiplicando el numerador de la primer fracción y el denominador de la segunda.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == * and a1 != v0 * v3 </equation>
+	<result>Recuerda que al multiplicar fracciones, el numerador resultante se obtiene multiplicando los numerador de ambas fracciones.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == / and a1 != v0 * v4 </equation>
+	<result>Recuerda que al dividir fracciones, 
+	el numerador resultante se obtiene multiplicando el numerador de la primer fracción y el denominador de la segunda.</result>
+  </option>
+ </input>
+ <input id="2">
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == * and a2 == v1 * v4 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == / and a2 == v1 * v3 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == * and a2 == v1 * v3 </equation>
+	<result>Al parecer estás multiplicando el denominador de la primer fracción y el numerador de la segunda.
+	Recuerda que al multiplicar fracciones, el denominador resultante se obtiene multiplicando los denominadores de ambas fracciones.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == / and a2 == v1 * v4 </equation>
+	<result>Al parecer estás multiplicando el denominador de ambas fracciones. Recuerda que al dividir fracciones, 
+	el denominador resultante se obtiene multiplicando el denominador de la primer fracción y el numerador de la segunda.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == * and a2 != v1 * v4 </equation>
+	<result>Recuerda que al multiplicar fracciones, el denominador resultante se obtiene multiplicando los denominadores de ambas fracciones.</result>
+  </option>
+  <option>
+	<operator>IF</operator>
+	<equation> v2 == / and a2 != v1 * v3 </equation>
+	<result>Recuerda que al dividir fracciones, 
+	el ndenominador resultante se obtiene multiplicando el denominador de la primer fracción y el numerador de la segunda.</result>
+  </option>
+ </input> 
+ <input id="3">
+  <option>
+	<operator>==</operator>
+	<equation> smn a1 , a2 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> smn a1 , a2 </equation>
+	<result>Al simplificar deseamos reducir a una forma más sencilla el numerador y denominador. Esto se logra dividiendo el numerador y denominador 
+	por el factor común más grande, con el cual, el resultado de la división da cero en ambos términos. Revisa si el valor con el que divides sea el 
+	mayor posible.</result>
+  </option>
+ </input>
+ <input id="4">
+  <option>
+	<operator>==</operator>
+	<equation> smd a1 , a2 </equation>
+	<result>ok</result>
+   </option>
+   <option>
+	<operator>!=</operator>
+	<equation> smd a1 , a2 </equation>
+	<result>Al simplificar deseamos reducir a una forma más sencilla el numerador y denominador. Esto se logra dividiendo el numerador y denominador 
+	por el factor común más grande, con el cual, el resultado de la división da cero en ambos términos. Revisa si el valor con el que divides sea el 
+	mayor posible.</result>
+  </option>
+ </input>
+ <input id="5">
+  <option>
+	<operator>==</operator>
+	<equation> cod a3 , a4 </equation>
+	<result>ok</result>
+   </option>
+   <option>
+	<operator>==</operator>
+	<equation> a3 + a4 </equation>
+	<result>Al parecer estás sumando el numerador y denomindaro de la fracción. En este paso debes dividir el numerador entre el denominador, el cociente 
+	o resultado de la división es el valor busacado. El residuo es la proporción restante de la fracción.</result>
+   </option>
+   <option>
+	<operator>!=</operator>
+	<equation> cod a3 , a4 </equation>
+	<result> En este paso debes dividir el numerador entre el denominador, el cociente o resultado de la división es el valor busacado. El residuo es la 
+	proporción restante de la fracción.</result>
+  </option>
+ </input>
+ <input id="6">
+  <option>
+	<operator>==</operator>
+	<equation> red a3 , a4 </equation>
+	<result>ok</result>
+   </option>
+   <option>
+	<operator>!=</operator>
+	<equation> red a3 , a4 </equation>
+	<result> En este paso debes dividir el numerador entre el denominador. El residuo, la proporción restante de la fracción, es el valor buscado.</result>
+  </option> </input>
+ <input id="11">
+  <option>
+	<operator>==</operator>
+	<equation> a4 </equation>
+	<result>ok</result>
+   </option>
+   <option>
+	<operator>!=</operator>
+	<equation> a4 </equation>
+	<result>Si el denominador obtenido en el paso anterior es correcto, el denominador de la fracción resultante es el mismo.</result>
+  </option>
+ </input>
+</dt>

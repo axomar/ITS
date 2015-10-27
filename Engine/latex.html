@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="lordAngeloApp">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../mathscribe/jqmath-0.4.0.css">
+
+
+
+    <script src="mathscribe/jquery-1.4.3.min.js"></script>
+    <script src="mathscribe/jqmath-etc-0.4.2.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/latex.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>lordAngelo</title>
+</head>
+<body ng-app="angularjs-starter" ng-controller="MainCtrl" >
+
+<h1>Crear ejercicio</h1>
+<label style="float: left ">
+    <textarea ng-model="holaa" style="width: 500px"> </textarea>
+</label>
+
+<div style=" float: left;" id="hola">
+
+</div>
+<div style="clear: both"></div>
+<button ng-click="hola()">Calcular</button>
+<button ng-click="guardar()">Guardar</button>
+
+<div id="choicesDisplay">
+    choices={{ choices }}
+</div>
+<div id="choicesDisplay">
+    questions= {{ questions }}
+
+</div>
+<div id="choicesDisplay">
+    Cadena a Guardar = {{ prueba+aguardar }}
+
+</div>
+
+</body>
+
+
+</html>

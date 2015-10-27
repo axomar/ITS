@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PEC>
+  <exercise id ="1" data="1 25"> </exercise>
+  <exercise id ="2" data="10 40"> </exercise>
+  <exercise id ="3" data="5 30"> </exercise>
+  <exercise id ="4" data="12 120"> </exercise>
+  <exercise id ="5" data="1 10"> </exercise>
+  <exercise id ="6" data="50 100"></exercise>
+  <exercise id ="7" data="5 20"> </exercise>
+  <exercise id ="8" data="5 30"> </exercise>
+  <exercise id ="9" data="9 90"> </exercise>
+  <exercise id ="10" data="6 20"> </exercise>
+  <exercise id ="11" data="5 10"> </exercise>
+  <exercise id ="12" data="25 100"> </exercise>
+  <exercise id ="13" data="4 20"> </exercise>
+  <exercise id ="14" data="8 100"> </exercise>
+  <exercise id ="15" data="5 3"> </exercise>
+  <exercise id ="16" data="6 3"> </exercise>
+  <exercise id ="17" data="15 100"> </exercise>
+  <exercise id ="18" data="10 25"> </exercise>
+  <exercise id ="19" data="5 100"> </exercise>
+  <exercise id ="20" data="6 200"> </exercise>
+  <exercise id ="21" data="4 30"> </exercise>
+  <exercise id ="22" data="8 30"> </exercise>
+  <exercise id ="23" data="15 10"> </exercise>
+  <exercise id ="24" data="56 100"> </exercise>
+  <exercise id ="25" data="6 10"> </exercise>
+  <exercise id ="26" data="2 10"> </exercise>
+  <exercise id ="27" data="12 20"> </exercise>
+  <exercise id ="28" data="20 25"> </exercise>
+  <exercise id ="29" data="11 25"> </exercise>
+  <exercise id ="30" data="3 30"> </exercise>
+  <exercise id ="31" data="30 3"> </exercise>
+  <exercise id ="32" data="6 1"> </exercise>
+  <exercise id ="33" data="8 15"> </exercise>
+  <exercise id ="34" data="8 20"> </exercise>
+  <exercise id ="35" data="5 30"> </exercise>
+  <exercise id ="36" data="5 25"> </exercise>
+  <exercise id ="37" data="4 200"> </exercise>
+  <exercise id ="38" data="8 30"> </exercise>
+  <exercise id ="39" data="5 10"> </exercise>
+  <exercise id ="40" data="6 1"> </exercise>
+  <exercise id ="41" data="4 3"> </exercise>
+  <exercise id ="42" data="4 30"> </exercise>
+  <exercise id ="43" data="8 90"> </exercise>
+  <exercise id ="44" data="5 3"> </exercise>
+  <exercise id ="45" data="6 2"> </exercise>
+  <exercise id ="46" data="4 1"> </exercise>
+  <exercise id ="47" data="7 2"> </exercise>
+  <exercise id ="48" data="9 2"> </exercise>
+  <exercise id ="49" data="6 3"> </exercise>
+  <exercise id ="50" data="4 1"> </exercise>
+</PEC>

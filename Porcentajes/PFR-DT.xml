@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> ( v0 / v1 ) * 100 </equation>
+	<result>ok</result>
+  </option>  
+  <option>
+	<operator>==</operator>
+	<equation> v0 / v1 </equation>
+	<result>Casi lo logras! Si debes dividir el numerador entre el denominador, solo te falta multiplicar por 100 el resultado.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> ( v0 / v1 ) / 100 </equation>
+	<result>Casi lo logras! Al parecer has dividido el numerador entre el denominador, pero el resultado lo has dividido entre 100, debes multiplicarlo por 100.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> ( v0 / v1 ) * 10 </equation>
+	<result>Casi lo logras! Al parecer has dividido el numerador entre el denominador, pero has multiplicado por 10, la multiplicación es por 100.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> ( v0 / v1 ) * 100 </equation>
+	<result>Para convertir una fracción a formato porcentual, recuerda que debes dividir el numerador entre el denominador y posteriormente multiplicarlo por 100.</result>
+  </option>
+  </input>
+</dt>

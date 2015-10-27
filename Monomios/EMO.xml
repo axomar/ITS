@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<EMO>
+  <exercise id ="1" data="3 8 2 3"> </exercise>
+  <exercise id ="2" data="2 5 6 2"> </exercise>
+  <exercise id ="3" data="5 5 2 1"> </exercise>
+  <exercise id ="4" data="4 8 2 2"> </exercise>
+  <exercise id ="5" data="3 7 3 3"> </exercise>
+  <exercise id ="6" data="9 3 8 2"></exercise>
+  <exercise id ="7" data="1 5 1 9"> </exercise>
+  <exercise id ="8" data="8 5 18 2"> </exercise>
+  <exercise id ="9" data="7 9 1 2"> </exercise>
+  <exercise id ="10" data="3 6 2 1"> </exercise>
+  <exercise id ="11" data="1 -5 4 5"> </exercise>
+  <exercise id ="12" data="9 6 23 2"> </exercise>
+  <exercise id ="13" data="3 4 10 2"> </exercise>
+  <exercise id ="14" data="2 8 -2 4"> </exercise>
+  <exercise id ="15" data="1 5 6 5"> </exercise>
+  <exercise id ="16" data="3 -6 3 2"> </exercise>
+  <exercise id ="17" data="5 12 1 2"> </exercise>
+  <exercise id ="18" data="7 8 2 1"> </exercise>
+  <exercise id ="19" data="8 5 6 1"> </exercise>
+  <exercise id ="20" data="3 6 2 3"> </exercise>
+  <exercise id ="21" data="2 4 1 4"> </exercise>
+  <exercise id ="22" data="5 8 2 2"> </exercise>
+  <exercise id ="23" data="1 15 4 2"> </exercise>
+  <exercise id ="24" data="5 6 20 2"> </exercise>
+  <exercise id ="25" data="8 8 4 2"> </exercise>
+  <exercise id ="26" data="2 8 4 4"> </exercise>
+  <exercise id ="27" data="1 7 6 1"> </exercise>
+  <exercise id ="28" data="1 12 5 1"> </exercise>
+  <exercise id ="29" data="8 2 1 2"> </exercise>
+  <exercise id ="30" data="8 1 -4 2"> </exercise>
+  <exercise id ="31" data="5 5 4 3"> </exercise>
+  <exercise id ="32" data="6 6 5 2"> </exercise>
+  <exercise id ="33" data="8 4 4 2"> </exercise>
+  <exercise id ="34" data="8 2 3 2"> </exercise>
+  <exercise id ="35" data="2 5 4 3"> </exercise>
+  <exercise id ="36" data="2 2 -2 2"> </exercise>
+  <exercise id ="37" data="4 4 4 2"> </exercise>
+  <exercise id ="38" data="2 18 4 2"> </exercise>
+  <exercise id ="39" data="5 -1 6 3"> </exercise>
+  <exercise id ="40" data="5 6 5 2"> </exercise>
+  <exercise id ="41" data="12 4 4 2"> </exercise>
+  <exercise id ="42" data="-2 4 7 3"> </exercise>
+  <exercise id ="43" data="7 8 14 2"> </exercise>
+  <exercise id ="44" data="6 15 4 1"> </exercise>
+  <exercise id ="45" data="5 6 5 2"> </exercise>
+  <exercise id ="46" data="6 4 4 2"> </exercise>
+  <exercise id ="47" data="2 8 4 3"> </exercise>
+  <exercise id ="48" data="7 5 14 2"> </exercise>
+  <exercise id ="49" data="5 -6 -5 3"> </exercise>
+  <exercise id ="50" data="8 4 4 2"> </exercise>
+</EMO>

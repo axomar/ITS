@@ -1,0 +1,9 @@
+Fracciones SyR:
+
+(Variable / Variable) Variable (Variable / Variable) = ( InputText InputText InputText ) / InputText = InputText / InputText = InputText / InputText =  InputText ( InputText / InputText ) 
+
+
+Fracciones MyD:
+
+Notacion Cientifica:
+Variable x 10 Variable = InputText

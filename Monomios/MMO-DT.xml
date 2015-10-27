@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v3 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 + v3 </equation>
+	<result>No es correcto sumar los coeficientes. Recuerda que es una multiplicación de monomios, entonces debemos multiplicarlos.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 * v3 * -1 </equation>
+	<result>Casi lo logras! Al parecer la multiplicación de signos la estás realizando de forma incorrecta.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v0 * v3 </equation>
+	<result>En la multiplicación de monomios, los coeficientes deben multiplicarse.</result>
+  </option>
+ </input>
+ <input id="2">
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v4 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 - v4 </equation>
+	<result>Estás restando los exponentes de bases similares, estos debes de sumarlos.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v2 </equation>
+	<result>Estás sumando los exponentes de las bases del primer monomio. Recuerda que debes sumar los exponentes de bases similares en cada monomio.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 * v4 </equation>
+	<result>Estás multiplicando los exponentes de bases similares, estos debes de sumarlos.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> ( v1 + v4 ) * -1</equation>
+	<result>Casi lo logras! Al parecer la manipulación de signos la estás realizando de forma incorrecta.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v1 + v4 </equation>
+	<result>Para bases similares, solo debes de sumar sus exponentes.</result>
+  </option>
+ </input>
+ <input id="3">
+  <option>
+	<operator>==</operator>
+	<equation> v2 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 + v2 </equation>
+	<result>Estás sumando los exponentes de las bases del primer monomio, debes sumar los exponentes de bases similares en cada monomio. Observa que en este caso, la base "Y" solo existe en el primer monomio.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v2 </equation>
+	<result>Para bases similares, debes de sumar sus exponentes. En este caso, no existe la base "Y" en el segundo monomio.</result>
+  </option>
+ </input>
+</dt>

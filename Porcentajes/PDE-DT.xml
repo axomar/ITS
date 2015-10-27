@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> v0 / 100 </equation>
+	<result>ok</result>
+  </option>  
+  <option>
+	<operator>==</operator>
+	<equation> v0 * 100 </equation>
+	<result>El valor del porcentaje no debes multiplicarse por 100, este debe dividirse entre 100.</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v0 / 10 </equation>
+	<result>Casi lo logras! Al parecer dividiste el valor del porcentaje entre 10, este debe dividirse entre 100.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> v0 / 100 </equation>
+	<result>Para convertir un porcentaje a decimal, recuerda que solo debes dividir el valor del porcentaje entre 100.</result>
+  </option>
+  </input>
+</dt>

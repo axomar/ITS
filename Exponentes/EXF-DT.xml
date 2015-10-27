@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt>
+ <input id="1">
+  <option>
+	<operator>==</operator>
+	<equation> ( v0 ) ^ v2 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> ( v0 ) * v2 </equation>
+	<result>No es correcto multiplicar el nuerador por el exponente, debes elevar el numerador de forma separada a la potencia indicada.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> ( v0 ) ^ v2 </equation>
+	<result>Para elevar una fracción a una potencia, debes elevar el numerador y el denominador a la potencia indicada de forma separada. La fracción resultante es la respuesta correcta.</result>
+  </option>
+ </input>
+ <input id="2">
+  <option>
+	<operator>==</operator>
+	<equation> ( v1 ) ^ v2 </equation>
+	<result>ok</result>
+  </option>
+  <option>
+	<operator>==</operator>
+	<equation> v1 * v2 </equation>
+	<result>No es correcto multiplicar el denominador por el exponente, debes elevar el denominador de forma separada a la potencia indicada.</result>
+  </option>
+  <option>
+	<operator>!=</operator>
+	<equation> ( v1 ) ^ v2 </equation>
+	<result>Para elevar una fracción a una potencia, debes elevar el numerador y el denominador a la potencia indicada de forma separada. La fracción resultante es la respuesta correcta.</result>
+  </option>
+ </input>
+</dt>
